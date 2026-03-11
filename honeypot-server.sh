@@ -70,3 +70,5 @@ setcap cap_net_bind_service=+ep /usr/bin/python3
 # Change the listening port to 22 in cowrie.cfg:
 # [ssh]
 # listen_endpoints = tcp:22:interface=0.0.0.0
+
+# Logs are written to: /var/log/cowrie/cowrie.log
